@@ -7,36 +7,53 @@
 
 /* header */
 
-.header-int {
-  height: 85px;
-  width: 100%;
+/* debug intestazione */
+.debug header .container-intesta {
   background-color: #add8e6;
-  display: flex;
-  align-items: center;
+}
+
+.debug header .container-intesta .intestazione {
+  background-color: #daa520;
+}
+.debug header .container-intesta .intestazione .lil-container {
+  border: black 2px dashed;
+}
+
+.debug header .container-intesta .intestazione .big-container {
+  border: black 2px dashed;
 }
 
 /* /intestazione */
+
+.container-intesta {
+  height: 85px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+/* contenitore padre di logo login e link */
 .intestazione {
   width: 1250px;
   height: 50px;
-  background-color: #daa520;
   margin: 0 auto;
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }
+/* /contenitore padre di logo login e link */
 
+/* contenitori di logo, login e link */
 .lil-container {
   width: 250px;
   height: 100%;
   padding: 15px;
-  border: black 2px dashed;
 }
 
 .big-container {
-  border: black 2px dashed;
   width: calc(100% - 500px);
 }
+/* /contenitori di logo, login e link */
 
+/* posizionamento di logo, login e link */
 .logo {
   display: flex;
   align-items: center;
@@ -53,11 +70,12 @@
   justify-content: center;
   align-items: center;
 }
+/* /posizionamento di logo, login e link */
 
 /* /intestazione */
 
 /* banner */
-.banner {
+.container-banner {
   height: 520px;
   width: 100%;
   background-color: #00008b;
@@ -66,7 +84,7 @@
   align-items: center;
 }
 
-.banner-container {
+.banner {
   width: 950px;
   height: 416px;
   background-color: #ee82ee;
