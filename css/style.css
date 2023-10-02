@@ -97,12 +97,20 @@
 
 /* debug main */
 
+.debug main .container-sez {
+  height: 630px;
+}
+
 .debug main .sez-big {
+  height: 520px;
+  width: 750px;
   background-color: #1e90ff;
   border: black dashed 2px;
 }
 
 .debug main .sez-lil {
+  height: 520px;
+  width: 500px;
   background-color: #ffc0cb;
   border: black dashed 2px;
 }
@@ -112,43 +120,34 @@
 }
 
 .debug main .sezione-4 {
+  height: 1040px;
   background-color: #d3d3d3;
 }
 
 .debug main .final-block {
+  height: 950px;
+  width: 1250px;
   background-color: #228b22;
   border: black dashed 2px;
 }
 
+/* /debug main */
+
 /* main */
 
+/* contenitore base delle sezioni */
 .container-sez {
-  height: 630px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+/* /contenitore base delle sezioni */
 
-.sez-big {
-  height: 520px;
-  width: 750px;
-}
-
-.sez-lil {
-  height: 520px;
-  width: 500px;
-}
-
+/* inversione delle solonne della sezione 2 */
 .sezione-2 {
   display: flex;
   flex-direction: row-reverse;
 }
+/* /inversione delle solonne della sezione 2 */
 
-.sezione-4 {
-  height: 1040px;
-}
-
-.final-block {
-  height: 950px;
-  width: 1250px;
-}
+/* /main */
