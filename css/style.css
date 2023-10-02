@@ -12,14 +12,14 @@
   background-color: #add8e6;
 }
 
-.debug header .container-intesta .intestazione {
+.debug header .intestazione {
   background-color: #daa520;
 }
-.debug header .container-intesta .intestazione .lil-container {
+.debug header .lil-container {
   border: black 2px dashed;
 }
 
-.debug header .container-intesta .intestazione .big-container {
+.debug header .big-container {
   border: black 2px dashed;
 }
 
@@ -92,3 +92,63 @@
 }
 
 /* /banner */
+
+/* /header */
+
+/* debug main */
+
+.debug main .sez-big {
+  background-color: #1e90ff;
+  border: black dashed 2px;
+}
+
+.debug main .sez-lil {
+  background-color: #ffc0cb;
+  border: black dashed 2px;
+}
+
+.debug main .sezione-2 {
+  background-color: #d3d3d3;
+}
+
+.debug main .sezione-4 {
+  background-color: #d3d3d3;
+}
+
+.debug main .final-block {
+  background-color: #228b22;
+  border: black dashed 2px;
+}
+
+/* main */
+
+.container-sez {
+  height: 630px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sez-big {
+  height: 520px;
+  width: 750px;
+}
+
+.sez-lil {
+  height: 520px;
+  width: 500px;
+}
+
+.sezione-2 {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.sezione-4 {
+  height: 1040px;
+}
+
+.final-block {
+  height: 950px;
+  width: 1250px;
+}
