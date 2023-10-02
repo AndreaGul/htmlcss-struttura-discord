@@ -13,8 +13,6 @@ debug header
 
 /* contenitore esterno dell'intestazione */
 .debug header .container-intesta {
-  height: 85px;
-  width: 100%;
   background-color: #add8e6;
 }
 /* /contenitore esterno dell'intestazione */
@@ -42,7 +40,6 @@ debug header
 
 /* contenitore esterno di banner */
 .debug header .container-banner {
-  height: 520px;
   width: 100%;
   background-color: #00008b;
 }
@@ -66,6 +63,7 @@ intestazione
 */
 
 .container-intesta {
+  height: 85px;
   display: flex;
   align-items: center;
 }
@@ -85,18 +83,18 @@ intestazione
 /* /contenitori di logo, login e link */
 
 /* posizionamento di logo, login e link */
-.logo {
+.logo-top-pag {
   display: flex;
   align-items: center;
 }
 
-.login {
+.login-top-pag {
   display: flex;
   align-items: center;
   justify-content: flex-end;
 }
 
-.link {
+.link-top-pag {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -111,6 +109,7 @@ intestazione
 banner 
 */
 .container-banner {
+  height: 520px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -127,10 +126,6 @@ banner
 /* 
 debug main 
 */
-
-.debug main .container-sez {
-  height: 630px;
-}
 
 .debug main .sez-big {
   height: 520px;
@@ -168,6 +163,7 @@ debug main
 
 /* contenitore base delle sezioni */
 .container-sez {
+  height: 630px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -182,3 +178,107 @@ debug main
 /* /inversione delle solonne della sezione 2 */
 
 /* ***** /main ****** */
+
+/* ***** footer ***** */
+
+/* 
+debug footer 
+*/
+
+/* colore di background del footer suddiviso nelle in due parti */
+.debug footer .container-footer {
+  background-color: #23272a;
+}
+/* /colore di background del footer suddiviso nelle in due parti */
+
+/* rappresentazione della colonna1 a sinistra */
+.debug footer .colonna1 {
+  background-color: #f08080;
+  height: 600px;
+  width: 300px;
+  border: black dashed 2px;
+}
+/* /rappresentazione della colonna1 a sinistra */
+
+/* rappresentazione della colonna2 a destra */
+.debug footer .colonna2 {
+  background-color: #20b2aa;
+  height: 600px;
+  width: 870px;
+  border: black dashed 2px;
+}
+/* /rappresentazione della colonna2 a destra */
+
+/* rappresentazioni dell varie parte contenute nella colonna2 */
+.debug footer .parti {
+  height: 100%;
+  border: white dashed 2px;
+}
+/* /rappresentazioni dell varie parte contenute nella colonna2 */
+
+/* divisione grafica delle due parti del footer */
+.debug footer .footer-bottom {
+  border-top: white solid 2px;
+}
+/* divisione grafica delle due parti del footer */
+
+/* contenitore del logo e del bottone a fondo pagina */
+.debug footer .container-endpage {
+  background-color: #7fffd4;
+  width: 1250px;
+  height: 85px;
+}
+/* /contenitore del logo e del bottone a fondo pagina */
+
+/* decorazione del logo e del bottone a fondo pagina */
+.debug footer .conf-fin-pag {
+  background-color: #ffb6c1;
+  padding: 5px;
+  border: black dashed 2px;
+}
+/* /decorazione del logo e del bottone a fondo pagina */
+/* 
+/debug footer 
+*/
+
+/* disposizone del contenuto di default nel footer  */
+.container-footer {
+  display: flex;
+  justify-content: center;
+}
+/* /disposizone del contenuto di default nel footer  */
+
+/* dimensione della parte superiore del footer */
+.footer-top {
+  height: 655px;
+  padding-top: 12px;
+}
+/* /dimensione della parte superiore del footer */
+
+/* disposizione del contenuto nella colonna 2 */
+.colonna2 {
+  display: flex;
+}
+/* /disposizione del contenuto nella colonna 2 */
+
+/* divisione del contenuto nella colonna2 in parti uguali */
+.parti {
+  flex-grow: calc(1 / 4);
+}
+/* /divisione del contenuto nella colonna2 in parti uguali */
+
+/* dimensione della parte inferiore del footer */
+.footer-bottom {
+  height: 115px;
+  align-items: flex-end;
+}
+/* /dimensione della parte inferiore del footer */
+
+/* disposizione del logo e del bottone nel contenitore a fondo pagina */
+.container-endpage {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* ***** /footer ***** */
