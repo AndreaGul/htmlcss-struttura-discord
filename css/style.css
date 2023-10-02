@@ -5,36 +5,72 @@
   box-sizing: border-box;
 }
 
-/* header */
+/************ header ************/
 
-/* debug intestazione */
+/* 
+debug header 
+*/
+
+/* contenitore esterno dell'intestazione */
 .debug header .container-intesta {
+  height: 85px;
+  width: 100%;
   background-color: #add8e6;
 }
+/* /contenitore esterno dell'intestazione */
 
+/* contenitore dell'intestazione */
 .debug header .intestazione {
+  width: 1250px;
+  height: 50px;
   background-color: #daa520;
 }
+/* /contenitore dell'intestazione */
+
+/* contenitori di logo, login e link */
 .debug header .lil-container {
+  width: 250px;
+  height: 100%;
   border: black 2px dashed;
 }
 
 .debug header .big-container {
+  width: calc(100% - 500px);
   border: black 2px dashed;
 }
+/* /contenitori di logo, login e link */
 
-/* /intestazione */
+/* contenitore esterno di banner */
+.debug header .container-banner {
+  height: 520px;
+  width: 100%;
+  background-color: #00008b;
+}
+/* /contenitore esterno di banner */
+
+/* contenitore del banner */
+.debug header .banner {
+  width: 950px;
+  height: 416px;
+  background-color: #ee82ee;
+  border: black 2px dashed;
+}
+/* /contenitore del banner */
+
+/* 
+/debug header 
+*/
+
+/* 
+intestazione
+*/
 
 .container-intesta {
-  height: 85px;
-  width: 100%;
   display: flex;
   align-items: center;
 }
 /* contenitore padre di logo login e link */
 .intestazione {
-  width: 1250px;
-  height: 50px;
   margin: 0 auto;
   display: flex;
   /* justify-content: space-between; */
@@ -43,14 +79,9 @@
 
 /* contenitori di logo, login e link */
 .lil-container {
-  width: 250px;
-  height: 100%;
   padding: 15px;
 }
 
-.big-container {
-  width: calc(100% - 500px);
-}
 /* /contenitori di logo, login e link */
 
 /* posizionamento di logo, login e link */
@@ -72,30 +103,30 @@
 }
 /* /posizionamento di logo, login e link */
 
-/* /intestazione */
+/* 
+/intestazione 
+*/
 
-/* banner */
+/* 
+banner 
+*/
 .container-banner {
-  height: 520px;
-  width: 100%;
-  background-color: #00008b;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.banner {
-  width: 950px;
-  height: 416px;
-  background-color: #ee82ee;
-  border: black 2px dashed;
-}
+/* 
+/banner 
+*/
 
-/* /banner */
+/************ /header ************/
 
-/* /header */
+/* ***** main ****** */
 
-/* debug main */
+/* 
+debug main 
+*/
 
 .debug main .container-sez {
   height: 630px;
@@ -131,9 +162,9 @@
   border: black dashed 2px;
 }
 
-/* /debug main */
-
-/* main */
+/*
+ /debug main 
+ */
 
 /* contenitore base delle sezioni */
 .container-sez {
@@ -150,4 +181,4 @@
 }
 /* /inversione delle solonne della sezione 2 */
 
-/* /main */
+/* ***** /main ****** */
