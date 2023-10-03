@@ -235,7 +235,6 @@ debug footer
 /* decorazione del logo e del bottone a fondo pagina */
 .debug footer .conf-fin-pag {
   background-color: #ffb6c1;
-  padding: 5px;
   border: black dashed 2px;
 }
 /* /decorazione del logo e del bottone a fondo pagina */
@@ -281,6 +280,10 @@ debug footer
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.conf-fin-pag {
+  padding: 5px;
 }
 
 /* ***** /footer ***** */
