@@ -143,13 +143,13 @@ debug main
   border: black dashed 2px;
 }
 
-.debug main .sezione-2 {
+.debug main .sezione-2,
+.sezione-4 {
   background-color: #d3d3d3;
 }
 
 .debug main .sezione-4 {
   height: 1040px;
-  background-color: #d3d3d3;
 }
 
 .debug main .final-block {
