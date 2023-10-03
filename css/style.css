@@ -265,7 +265,7 @@ debug footer
 
 /* divisione del contenuto nella colonna2 in parti uguali */
 .parti {
-  flex-grow: calc(1 / 4);
+  flex-grow: 1;
 }
 /* /divisione del contenuto nella colonna2 in parti uguali */
 
