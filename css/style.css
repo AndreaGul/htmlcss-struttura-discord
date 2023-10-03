@@ -47,7 +47,6 @@ debug header
 
 /* contenitore del banner */
 .debug header .banner {
-  width: 950px;
   height: 416px;
   background-color: #ee82ee;
   border: black 2px dashed;
@@ -115,6 +114,9 @@ banner
   align-items: center;
 }
 
+.banner {
+  width: 950px;
+}
 /* 
 /banner 
 */
